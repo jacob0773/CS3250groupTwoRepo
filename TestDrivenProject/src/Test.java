@@ -2,7 +2,15 @@
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		int expected = 1;
+		int actual = factorial(0);
+
+		if (actual == expected) {
+			System.out.println("Test passed");
+		} else {
+			System.out.println("Test failed: expected " + expected + " but got " + actual);
+		}
 
 	}
 
