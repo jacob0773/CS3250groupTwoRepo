@@ -8,6 +8,8 @@
 # Dynamically regenerated directories
 build/
 dist/
+out/
+bin/
 
 # Compiled class file
 *.class
@@ -34,3 +36,23 @@ dist/
 hs_err_pid*
 replay_pid*
 /bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Ant / temp files
+tmp/
+temp/
+
+# Windows
+Thumbs.db
+Desktop.ini
