@@ -1,0 +1,17 @@
+all
+checkstyle
+clean
+compile
+cpd
+dist
+doc
+help
+init
+javadoc
+junit
+junit-simple
+pmd
+quality
+run
+spotbugs
+test
